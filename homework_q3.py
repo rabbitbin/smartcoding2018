@@ -30,7 +30,7 @@ def getChange(costOfItem, amountPaid): # create a function
     ten = coins // 10  # divide 10 to check for value of 10kr
     five = coins % 10 // 5  # check how much remainder efter divided 10 and divid it by 5 (5kr)
     two = coins % 10 % 5 // 2 # and so on for 2 kr
-    one = coins % 10 % 5 % 2 // 1 # removed // 1 because no need for it, just the same number
+    one = coins % 10 % 5 % 2 # removed // 1 because no need for it, just the same number
     
     # output for the change we have to make
     print("The change of coins for", coins, "kr are:") 
